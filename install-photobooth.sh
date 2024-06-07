@@ -106,34 +106,7 @@ function print_spaces() {
 }
 
 function print_logo() {
-    echo "
-
-
-                    @@@@@@@@@@@@@@@@@@@
-                   @@.               .@@
-     %@@@@@@.     @@     @@@@@@@@@     @@
-    @@@    @@*   @@.                   .@@
-  &@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&
-@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@
-@@                                                       @@
-@@                     @@@@@@@@@@@@@.        *@@  @@@@@  @@
-@@                  @@@@           @@@@                  @@
-@@@@@@@@@@@@@@@@@@@@@    #@@@@@@@#    @@@@@@@@@@@@@@@@@@@@@
-@@              @@@   @@@@(     (@@@@   @@@              @@
-@@             &@@  .@@%           %@@.  @@&             @@
-@@             @@   @@               @@   @@             @@
-@@            %@@  @@*               /@@  @@%            @@
-@@            @@%  @@                 @@  %@@            @@
-@@            *@@  @@&               &@@  @@*            @@
-@@             @@   @@*             *@@   @@             @@
-@@              @@   @@@           @@@   @@              @@
-@@%%%%%%%%%%%%%%%@@%   @@@@@&%&@@@@@   %@@%%%%%%%%%%%%%%%@@
-@@@@@@@@@@@@@@@@@@@@@@     *&@&*     @@@@@@@@@@@@@@@@@@@@@@
-@@                  ,@@@@&       &@@@@,                  @@
-@@                      (@@@@@@@@@(                      @@
-@@                                                       @@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-"
+    echo " logo logo logo logo logo logo logo "
 }
 
 #Param 1: Question / Param 2: Default / silent answer
@@ -624,7 +597,7 @@ function add_git_remote() {
         fi
     else
         info "### Adding photoboothproject remote..."
-        sudo -u www-data git remote add photoboothproject https://github.com/PhotoboothProject/photobooth.git
+        sudo -u www-data git remote add photoboothproject https://github.com/saeram-you/photobooth.git
     fi
 }
 
