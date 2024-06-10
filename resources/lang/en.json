@@ -206,7 +206,7 @@
   "general:start_screen_title_visible": "Show title on start screen",
   "general:translate": "Translation missing?",
   "general:ui_folders_lang": "Path to language resources",
-  "general:ui_language": "Choose Language",
+  "general:ui_language": "Choose Language ++",
   "general:ui_notification_timeout": "Notification time",
   "general:webserver_ip": "IP address of the Photobooth web server",
   "general:webserver_ssid": "Wireless network name (SSID) used to access the photobooth",
