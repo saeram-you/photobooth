@@ -8,7 +8,7 @@ digicamcontrol/
 HEAD
 manual/faq.*
 node_modules/
-private/*
+#private/*
 !private/README.md
 resources/css/*
 !resources/css/README.md
