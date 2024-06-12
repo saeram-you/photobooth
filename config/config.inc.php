@@ -116,7 +116,7 @@ $config['collage']['enabled'] = true;
 // control countdown timer between collage pictures in seconds
 $config['collage']['cntdwn_time'] = '3';
 $config['collage']['continuous'] = true;
-$config['collage']['continuous_time'] = '5';
+$config['collage']['continuous_time'] = '3';
 // possible layout values: '2+2', '2+2-2', '1+3', '1+3-2', '3+1', '1+2', '2+1', '2x4', '2x4-2', '2x4-3', '2x3', 'collage.json'
 $config['collage']['layout'] = 'collage.json';
 // possible layout values: '150dpi', '300dpi', '400dpi', '600dpi'
@@ -191,7 +191,7 @@ $config['pswp']['bgClickAction'] = 'none';
 // P R E V I E W
 // Please read https://photoboothproject.github.io/FAQ#how-to-use-a-live-stream-as-background-at-countdown
 // possible preview_mode values: none, device_cam, url
-$config['preview']['mode'] = 'none';
+$config['preview']['mode'] = 'device_cam';  //미리보기
 $config['preview']['stop_time'] = '2';
 $config['preview']['camTakesPic'] = false;
 $config['preview']['style'] = 'scale-down';
@@ -239,7 +239,7 @@ $config['print']['locking_msg'] = 'Printing... Print limit reached, print will b
 $config['print']['limit_msg'] = 'Print locked.';
 $config['print']['no_rotate'] = false;
 $config['print']['key'] = '';
-$config['print']['qrcode'] = false;
+$config['print']['qrcode'] = true;
 $config['print']['qrSize'] = '4';
 $config['print']['qrPosition'] = 'bottomRight';
 $config['print']['qrOffset'] = 10;
