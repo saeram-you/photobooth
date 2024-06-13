@@ -1096,11 +1096,11 @@ EOF
 \$config = array (
   'picture' =>
   array (
-    'cntdwn_time' => '6',
+    'cntdwn_time' => '3',
   ),
   'collage' =>
   array (
-    'cntdwn_time' => '6',
+    'cntdwn_time' => '3',
   ),
   'preview' =>
   array (
