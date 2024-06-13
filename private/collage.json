@@ -6,7 +6,7 @@
     "height": "1800",
     "text_custom_style": true,
     "text_font_size": "50",
-    "text_rotation": "10",
+    "text_rotation": "0",
     "text_locationx": "200",
     "text_locationy": "220",
     "text_font_color": "#420C09",
@@ -15,13 +15,13 @@
     "text_line2": "a",
     "text_line3": "Custom Collage",
     "text_linespace": "100",
-    "apply_frame": "once",
-    "frame": "/var/www/html/resources/img/frames/frame_stone.png",
+    "apply_frame": "always",
+    "frame": "/var/www/html/resources/img/frames/frame_test3.png",
     "background": "/var/www/html/resources/img/background.png",
     "layout" : 
             [
-                [ "x * 0.555",             "y * 0.055",           "1.5 * y * 0.40812",   "y * 0.300",   "0"       ],
-                [ "x * 0.555",             "y * 0.333",           "1.5 * y * 0.40812",   "y * 0.300",   "0"        ],
-                [ "x * 0.555",             "y * 0.666",           "1.5 * y * 0.40812",   "y * 0.300",   "0"        ]
+                [ "x * 0.005",             "y * 0.033",           "1.5 * y * 0.40812",   "y * 0.300",   "0"       ],
+                [ "x * 0.005",             "y * 0.333",           "1.5 * y * 0.40812",   "y * 0.300",   "0"        ],
+                [ "x * 0.005",             "y * 0.666",           "1.5 * y * 0.40812",   "y * 0.300",   "0"        ]
             ]
 }
