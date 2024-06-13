@@ -51,3 +51,5 @@ tools/*/vendor
 **/.DS_Store
 
 /vendor/
+SECURITY.md
+CODE_OF_CONDUCT.md

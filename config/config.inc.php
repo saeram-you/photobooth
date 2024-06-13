@@ -7,15 +7,15 @@
 $config = [];
 
 // G E N E R A L
-// possible language values: de, en, fr, it
+// possible language values: en, kr, vn
 $config['ui']['language'] = 'en';
 $config['ui']['folders_lang'] = 'resources/lang';
 $config['adminpanel']['view'] = 'basic';
 $config['adminpanel']['experimental_settings'] = false;
 $config['dev']['loglevel'] = '1';
 $config['dev']['demo_images'] = false;
-$config['start_screen']['title'] = '';
-$config['start_screen']['title_visible'] = false;
+$config['start_screen']['title'] = 'Photo Palette';
+$config['start_screen']['title_visible'] = true;
 $config['start_screen']['subtitle'] = '';
 $config['start_screen']['subtitle_visible'] = false;
 // possible thumb_size values: '360px', '540px', '900px', '1080px', '1260px'
@@ -39,8 +39,8 @@ $config['database']['enabled'] = true;
 $config['database']['file'] = 'db';
 
 // F R O N T P A G E
-$config['ui']['show_fork'] = true;
-$config['ui']['skip_welcome'] = false;
+$config['ui']['show_fork'] = false;
+$config['ui']['skip_welcome'] = true;
 $config['ui']['admin_shortcut'] = true;
 // possible admin shortcut position values: 'top_right', 'top_left', 'bottom_right', 'bottom_left'
 $config['ui']['admin_shortcut_position'] = 'bottom-right';
@@ -59,7 +59,7 @@ $config['button']['force_buzzer'] = false;
 // P I C T U R E S
 $config['picture']['enabled'] = true;
 // control countdown timer in seconds
-$config['picture']['cntdwn_time'] = '5';
+$config['picture']['cntdwn_time'] = '3';
 // control time for cheeeeese! in milliseconds
 $config['picture']['cheese_time'] = '1000';
 // possible flip values: 'off', 'horizontal', 'vertical', 'both'
@@ -103,7 +103,7 @@ $config['textonpicture']['linespace'] = '90';
 $config['custom']['enabled'] = false;
 $config['take_custom']['cmd'] = '';
 // control countdown timer in seconds
-$config['custom']['cntdwn_time'] = '5';
+$config['custom']['cntdwn_time'] = '3';
 // specify key id (e.g. 13 is the enter key)
 // use for example https://keycode.info to get the key code
 $config['custom']['key'] = '';
@@ -116,9 +116,9 @@ $config['collage']['enabled'] = true;
 // control countdown timer between collage pictures in seconds
 $config['collage']['cntdwn_time'] = '3';
 $config['collage']['continuous'] = true;
-$config['collage']['continuous_time'] = '5';
+$config['collage']['continuous_time'] = '3';
 // possible layout values: '2+2', '2+2-2', '1+3', '1+3-2', '3+1', '1+2', '2+1', '2x4', '2x4-2', '2x4-3', '2x3', 'collage.json'
-$config['collage']['layout'] = '2+2-2';
+$config['collage']['layout'] = 'collage.json';
 // possible layout values: '150dpi', '300dpi', '400dpi', '600dpi'
 $config['collage']['resolution'] = '300dpi';
 $config['collage']['dashedline_color'] = '#000000';
@@ -191,7 +191,7 @@ $config['pswp']['bgClickAction'] = 'none';
 // P R E V I E W
 // Please read https://photoboothproject.github.io/FAQ#how-to-use-a-live-stream-as-background-at-countdown
 // possible preview_mode values: none, device_cam, url
-$config['preview']['mode'] = 'none';
+$config['preview']['mode'] = 'device_cam';  //미리보기
 $config['preview']['stop_time'] = '2';
 $config['preview']['camTakesPic'] = false;
 $config['preview']['style'] = 'scale-down';
@@ -239,7 +239,7 @@ $config['print']['locking_msg'] = 'Printing... Print limit reached, print will b
 $config['print']['limit_msg'] = 'Print locked.';
 $config['print']['no_rotate'] = false;
 $config['print']['key'] = '';
-$config['print']['qrcode'] = false;
+$config['print']['qrcode'] = true;
 $config['print']['qrSize'] = '4';
 $config['print']['qrPosition'] = 'bottomRight';
 $config['print']['qrOffset'] = 10;
