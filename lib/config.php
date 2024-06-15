@@ -211,8 +211,8 @@ if (empty($config['collage']['limit'])) {
     $config['collage']['limit'] = 4;
 }
 
-$bg_url = PathUtility::getPublicPath('resources/img/background.png');
-$logo_url = PathUtility::getPublicPath('resources/img/logo/logo-qrcode-text.png');
+$bg_url = PathUtility::getPublicPath('resources/img/logo/main_logo.png');
+$logo_url = PathUtility::getPublicPath('resources/img/logo/main_logo.png');
 
 if (empty($config['logo']['path'])) {
     $config['logo']['path'] = $logo_url;
