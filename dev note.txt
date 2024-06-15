@@ -1,0 +1,5 @@
+private\collage.json 
+>> collage 세팅 (폰트/글자/배열 ...)
+
+config\config.inc.php
+>> 최초 세팅, 거의 모든 config
