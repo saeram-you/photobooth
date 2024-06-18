@@ -16,8 +16,8 @@
     "text_line3": "Custom Collage",
     "text_linespace": "100",
     "apply_frame": "always",
-    "frame": "/var/www/html/resources/img/frames/frame_test3.png",
-    "background": "/var/www/html/resources/img/background.png",
+    "frame": "/var/www/html/resources/img/frames/1.png",
+    // "background": "/var/www/html/resources/img/background.png",
     "layout" : 
             [
                 [ "x * 0.555",             "y * 0.055",           "1.5 * y * 0.40812",   "y * 0.300",   "0"       ],
