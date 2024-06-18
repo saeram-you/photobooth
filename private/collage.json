@@ -13,8 +13,9 @@
     "text_font": "/var/www/html/resources/fonts/GreatVibes-Regular.ttf",
     "text_line1": "This is",
     "text_line2": "test",
+    "text_line3": "",
     "text_linespace": "100",
-    "apply_frame": "always",
+    "apply_frame": "once",
     "frame": "/var/www/html/resources/img/frames/1.png",
     "background": "/var/www/html/resources/img/background.png",
     "layout" : 
