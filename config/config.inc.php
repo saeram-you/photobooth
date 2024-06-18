@@ -44,7 +44,7 @@ $config['ui']['skip_welcome'] = true;
 $config['ui']['admin_shortcut'] = true;
 // possible admin shortcut position values: 'top_right', 'top_left', 'bottom_right', 'bottom_left'
 $config['ui']['admin_shortcut_position'] = 'bottom-right';
-$config['logo']['enabled'] = true;
+$config['logo']['enabled'] = false;
 $config['logo']['path'] = '';
 // possible logo position values: 'center', 'top_right', 'top_left', 'bottom_right', 'bottom_left'
 $config['logo']['position'] = 'center';
