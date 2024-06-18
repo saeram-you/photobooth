@@ -15,7 +15,7 @@ $config['adminpanel']['experimental_settings'] = false;
 $config['dev']['loglevel'] = '1';
 $config['dev']['demo_images'] = false;
 $config['start_screen']['title'] = 'Photo Palette';
-$config['start_screen']['title_visible'] = true;
+$config['start_screen']['title_visible'] = false;
 $config['start_screen']['subtitle'] = '';
 $config['start_screen']['subtitle_visible'] = false;
 // possible thumb_size values: '360px', '540px', '900px', '1080px', '1260px'
