@@ -11,8 +11,8 @@
     "text_locationy": "20",
     "text_font_color": "#420C09",
     "text_font": "/var/www/html/resources/fonts/GreatVibes-Regular.ttf",
-    "text_line1": "This is",
-    "text_line2": "test",
+    "text_line1": "",
+    "text_line2": "",
     "text_line3": "",
     "text_linespace": "100",
     "apply_frame": "once",
@@ -20,8 +20,8 @@
     "background": "/var/www/html/resources/img/background.png",
     "layout" : 
             [
-                [ "x * 0.555",             "y * 0.055",           "1.5 * y * 0.40812",   "y * 0.300",   "0"       ],
-                [ "x * 0.555",             "y * 0.333",           "1.5 * y * 0.40812",   "y * 0.300",   "0"        ],
-                [ "x * 0.555",             "y * 0.666",           "1.5 * y * 0.40812",   "y * 0.300",   "0"        ]
+                [ "x * 0.005",             "y * 0.005",           "1.5 * y * 0.40812",   "y * 0.300",   "0"       ],
+                [ "x * 0.005",             "y * 0.333",           "1.5 * y * 0.40812",   "y * 0.300",   "0"        ],
+                [ "x * 0.005",             "y * 0.666",           "1.5 * y * 0.40812",   "y * 0.300",   "0"        ]
             ]
 }
