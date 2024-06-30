@@ -11,7 +11,7 @@ $devImg = array_diff(scandir($demoFolder), ['.', '..']);
 
 $demoImages = [];
 // Loop to select 4 random images
-for ($i = 0; $i < 4; $i++) {
+for ($i = 0; $i < 3; $i++) {
     // Check if there are any images left to select
     if (empty($devImg)) {
         break; // Break the loop if there are no more images
