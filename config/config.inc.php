@@ -71,15 +71,15 @@ $config['filters']['enabled'] = true;
 $config['filters']['defaults'] = 'plain';
 $config['filters']['disabled'] = [];
 $config['picture']['take_frame'] = true;
-$config['picture']['frame'] = '';
+$config['picture']['frame'] = '/resources/img/frames/picture_frame.png';
 $config['picture']['extend_by_frame'] = true;
-$config['picture']['frame_left_percentage'] = 10;
-$config['picture']['frame_right_percentage'] = 10;
-$config['picture']['frame_top_percentage'] = 5;
-$config['picture']['frame_bottom_percentage'] = 15;
+$config['picture']['frame_left_percentage'] = 0; //10;
+$config['picture']['frame_right_percentage'] = 0; //10;
+$config['picture']['frame_top_percentage'] = 0; //5;
+$config['picture']['frame_bottom_percentage'] = 0; //15;
 // specify key id (e.g. 13 is the enter key) to use that key to take a picture (picture key)
 // use for example https://keycode.info to get the key code
-$config['picture']['key'] = '';
+$config['picture']['key'] = '80'; //'p'
 // possible naming values: 'dateformatted', 'random'
 $config['picture']['naming'] = 'dateformatted';
 // permissions example values: '0644' (rw-r--r--), '0666' (rw-rw-rw-), '0600' (rw-------)
@@ -125,7 +125,7 @@ $config['collage']['dashedline_color'] = '#000000';
 $config['collage']['keep_single_images'] = false;
 // specify key id (e.g. 13 is the enter key) to use that key to take a collage (collage key)
 // use for example https://keycode.info to get the key code
-$config['collage']['key'] = '';
+$config['collage']['key'] = '67'; //'c'
 $config['collage']['background_color'] = '#ffffff';
 // possible take_frame values: 'off', 'always', 'once'
 $config['collage']['take_frame'] = 'off';
