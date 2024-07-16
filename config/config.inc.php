@@ -201,7 +201,7 @@ $config['preview']['flip'] = 'off';
 $config['preview']['rotation'] = '0deg';
 $config['preview']['url'] = '';
 $config['preview']['url_delay'] = '1000';
-$config['preview']['videoWidth'] = '1280';
+$config['preview']['videoWidth'] = '480';
 $config['preview']['videoHeight'] = '720';
 // possible camera_mode values: "user", "environment"
 $config['preview']['camera_mode'] = 'user';
