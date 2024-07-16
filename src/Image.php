@@ -58,12 +58,12 @@ class Image
     /**
      * The maximum width for image resizing.
      */
-    public int $resizeMaxWidth = 0;
+    public int $resizeMaxWidth = 480;
 
     /**
      * The maximum height for image resizing.
      */
-    public int $resizeMaxHeight = 0;
+    public int $resizeMaxHeight = 720;
 
     /**
      * Determine to keep aspect ratio on resize.
