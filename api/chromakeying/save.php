@@ -135,8 +135,8 @@ try {
         }
     }
     $chroma_size = intval(substr($config['keying']['size'], 0, -2));
-    $imageHandler->resizeMaxWidth = $chroma_size;
-    $imageHandler->resizeMaxHeight = $chroma_size;
+    $imageHandler->resizeMaxWidth = 480;    //chg size
+    $imageHandler->resizeMaxHeight = 720;
     $chromaCopyResource = $imageHandler->resizeImage($imageResource);
     if ($chromaCopyResource instanceof \GdImage) {
         $imageHandler->jpegQuality = $config['jpeg_quality']['chroma'];
