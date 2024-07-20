@@ -2,9 +2,9 @@
 {
     "portrait": false,
     "rotate_after_creation": false,
-    "width": "480",
-    "height": "720",
-    "text_custom_style": false,
+    "width": "600",
+    "height": "1800",
+    "text_custom_style": true,
     "text_font_size": "50",
     "text_rotation": "0",
     "text_locationx": "20",
@@ -16,10 +16,12 @@
     "text_line3": "",
     "text_linespace": "100",
     "apply_frame": "once",
-    "frame": "/var/www/html/resources/img/frames/picture_frame.png",
+    "frame": "/var/www/html/resources/img/frames/1.png",
     "background": "/var/www/html/resources/img/background.png",
     "layout" : 
             [
-                [ "x * 0.005",             "y * 0.005",           " x * 0.812",   "y * 0.300",   "0"       ]
+                [ "x * 0.005",             "y * 0.005",           " x * 0.812",   "y * 0.300",   "0"       ],
+                [ "x * 0.005",             "y * 0.333",           " x * 0.812",   "y * 0.300",   "0"        ],
+                [ "x * 0.005",             "y * 0.666",           " x * 0.812",   "y * 0.300",   "0"        ]
             ]
 }
