@@ -20,6 +20,6 @@
     "background": "/var/www/html/resources/img/background.png",
     "layout" : 
             [
-                [ "x * 0.005",             "y * 0.005",           " x * 0.812",   "y * 0.300",   "0"       ]
+                [ "x * 0.005",             "y * 0.005",           " x * 1.0",   "y * 1.0",   "0"       ]
             ]
 }

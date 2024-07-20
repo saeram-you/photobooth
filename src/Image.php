@@ -181,12 +181,12 @@ class Image
     /**
      * The width of the picture to be added.
      */
-    public int $addPictureWidth = 0;
+    public int $addPictureWidth = 480;
 
     /**
      * The height of the picture to be added.
      */
-    public int $addPictureHeight = 0;
+    public int $addPictureHeight = 720;
 
     /**
      * The rotation angle of the picture to be added (in degrees).
