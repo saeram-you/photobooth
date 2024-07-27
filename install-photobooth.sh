@@ -10,7 +10,8 @@ RUNNING_ON_PI=true
 RASPBERRY_PI_5=false
 FORCE_RASPBERRY_PI=false
 DATE=$(date +"%Y%m%d-%H-%M")
-IPADDRESS=$(hostname -I | cut -d " " -f 1)
+#IPADDRESS=$(hostname -I | cut -d " " -f 1)
+IPADDRESS="3.24.108.180"
 PHOTOBOOTH_TMP_LOG="/tmp/$DATE-photobooth.txt"
 
 BRANCH="dev"
@@ -25,7 +26,8 @@ MJPEG_PREVIEW=false
 MJPEG_PREVIEW_ONLY=false
 CUPS_REMOTE_ANY=false
 WEBBROWSER="unknown"
-KIOSK_FLAG="--kiosk http://localhost"
+#KIOSK_FLAG="--kiosk http://localhost"
+KIOSK_FLAG="--kiosk http://3.24.108.180"
 CHROME_FLAGS=false
 CHROME_DEFAULT_FLAGS="--noerrdialogs --disable-infobars --disable-features=Translate --no-first-run --check-for-update-interval=31536000 --touch-events=enabled --password-store=basic"
 AUTOSTART_FILE=""
