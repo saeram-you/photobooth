@@ -651,7 +651,7 @@ function start_git_install() {
 function start_install() {
     info "### Now we are going to install Photobooth."
     if [ "$GIT_INSTALL" = true ]; then
-        sudo -u www-data git clone https://github.com/PhotoboothProject/photobooth "$INSTALLFOLDER"
+        sudo -u www-data git clone https://github.com/saeram-you/photobooth "$INSTALLFOLDER"
         cd "$INSTALLFOLDERPATH"
         add_git_remote
         start_git_install
