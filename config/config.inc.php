@@ -239,7 +239,7 @@ $config['print']['locking_msg'] = 'Printing... Print limit reached, print will b
 $config['print']['limit_msg'] = 'Print locked.';
 $config['print']['no_rotate'] = false;
 $config['print']['key'] = '';
-$config['print']['qrcode'] = true;
+$config['print']['qrcode'] = false;
 $config['print']['qrSize'] = '4';
 $config['print']['qrPosition'] = 'bottomRight';
 $config['print']['qrOffset'] = 10;
@@ -263,7 +263,7 @@ $config['textonprint']['font_size'] = '100';
 $config['textonprint']['linespace'] = '100';
 
 // Q R  -  C O D E
-$config['qr']['enabled'] = true;
+$config['qr']['enabled'] = false;
 $config['qr']['url'] = '';
 $config['qr']['append_filename'] = true;
 $config['qr']['custom_text'] = false;
