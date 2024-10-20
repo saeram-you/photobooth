@@ -228,8 +228,8 @@ $config['keying']['show_all'] = false;
 
 // P R I N T
 $config['button']['show_cups'] = false;
-$config['print']['from_result'] = false;
-$config['print']['from_gallery'] = false;
+$config['print']['from_result'] = true;
+$config['print']['from_gallery'] = true;
 $config['print']['from_chromakeying'] = false;
 $config['print']['auto'] = false;
 $config['print']['auto_delay'] = '1000';
